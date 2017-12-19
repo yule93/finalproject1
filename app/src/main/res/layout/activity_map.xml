@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kwanwoo.android.samplemaptest.MapActivity">
+
+   <LinearLayout
+       android:id="@+id/layout2"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:background="#ffffff"
+       android:orientation="horizontal"
+       >
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="THE BUNKER"
+          android:textSize="20dp"
+          android:textStyle="bold"
+          android:textColor="#000000"
+          android:layout_gravity="center"
+          android:layout_marginLeft="20dp"
+          />
+
+      <Button
+          android:id="@+id/lists"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+          android:background="@drawable/list"
+          android:layout_gravity="center"
+          android:layout_marginLeft="175dp"
+          />
+
+   </LinearLayout>
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="0.75dp"
+       android:layout_centerInParent="true"
+       android:background="#afafaf"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <Spinner
+          android:id="@+id/spinner1"
+          android:layout_width="266dp"
+          android:layout_height="40dp"
+          android:layout_gravity=""
+          android:entries="@array/country_arrays"
+          android:prompt="@string/country_prompt" />
+
+
+      <Button
+          android:id="@+id/btnSubmit"
+          android:layout_width="80dp"
+          android:layout_height="wrap_content"
+          android:text="Submit" />
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+      <Button
+          android:id="@+id/subway1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="한성대입구역"/>
+      <Button
+          android:id="@+id/subway2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="창신역"/>
+   </LinearLayout>
+   <fragment
+       android:id="@+id/map"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyAndroidApp</string>
+    <string name="country_prompt">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item>혜화초등학교</item>
+        <item>시샘교회</item>
+        <item>한강중앙교회</item>
+        <item>서울성산초등학교</item>
+        <item>상도동경로당</item>
+        <item>본동초등학교교</item>
+        <item>남정초등학교</item>
+        <item>응암초등학교</item>
+    </string-array>
+
+</resources>
