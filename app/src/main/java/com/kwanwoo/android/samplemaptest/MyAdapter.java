@@ -67,6 +67,9 @@ public class MyAdapter extends BaseAdapter {
         TextView age = (TextView) convertView.findViewById(R.id.textItem2);
         age.setText(mItems.get(position).nAge);
 
+        TextView number = (TextView) convertView.findViewById(R.id.number);
+        number.setText(mItems.get(position).nNumber);
+
         return convertView;
     }
 }
@@ -75,10 +78,12 @@ class MyItem {
     int mIcon; // image resource
     String nName; // text
     String nAge;  // text
+    String nNumber;
 
-    MyItem(int aIcon, String aName, String aAge) {
+    MyItem(int aIcon, String aName, String aAge, String aNumber) {
         mIcon = aIcon;
         nName = aName;
         nAge = aAge;
+        nNumber = aNumber;
     }
 }
