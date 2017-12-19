@@ -23,21 +23,21 @@ public class MainActivity extends AppCompatActivity {
 
         // 데이터 원본 준비
 
-        data.add(new MyItem(R.drawable.sample_0, "혜화초등학교", "혜화동 13-1s", "763-0606"));
-        data.add(new MyItem(R.drawable.sample_1, "시샘교회", "홍제동 20-4", "720-7040"));
-        data.add(new MyItem(R.drawable.sample_2, "한강중앙교회", "포은로2가길 66", "337-6629"));
-        data.add(new MyItem(R.drawable.sample_3, "서울성산초등학교", "양화로3길 94", "324-1407"));
-        data.add(new MyItem(R.drawable.sample_4, "상동1동경로당", "상도동 159-282", "010-8011-7330"));
-        data.add(new MyItem(R.drawable.sample_5, "상도초등학교", "상도동 238-2", "822-0078"));
-        data.add(new MyItem(R.drawable.sample_6, "본동초등학교", "노량진동 133", "813-0408"));
-        data.add(new MyItem(R.drawable.sample_7, "남정초등학교", "원효2가 54-1","712-8015"));
-        data.add(new MyItem(R.drawable.sample_7, "응암초등학교", "응암3동 7-40", "303-3044"));
-        data.add(new MyItem(R.drawable.sample_7, "제일감리교회", "흑석동 80-3","817-2541"));
-        data.add(new MyItem(R.drawable.sample_7, "봉천종합사회복지관", "관악로 254","870-4400"));
-        data.add(new MyItem(R.drawable.sample_7, "여의도초등학교", "여의도동 40-3", "010-2035-3969"));
-        data.add(new MyItem(R.drawable.sample_7, "사당1동주민센터", "사당동 105-12", "820-2566"));
-        data.add(new MyItem(R.drawable.sample_7, "서부성결교회", "이촌동 208-1", "702-1635"));
-        data.add(new MyItem(R.drawable.sample_7, "서울 이수 중학교", "방배2동 974-22", "521-4651"));
+        data.add(new MyItem(R.drawable.a01, "혜화초등학교", "혜화동 13-1s", "763-0606"));
+        data.add(new MyItem(R.drawable.a02, "시샘교회", "홍제동 20-4", "720-7040"));
+        data.add(new MyItem(R.drawable.a03, "한강중앙교회", "포은로2가길 66", "337-6629"));
+        data.add(new MyItem(R.drawable.a04, "서울성산초등학교", "양화로3길 94", "324-1407"));
+        data.add(new MyItem(R.drawable.a05, "상동1동경로당", "상도동 159-282", "811-7330"));
+        data.add(new MyItem(R.drawable.a06, "상도초등학교", "상도동 238-2", "822-0078"));
+        data.add(new MyItem(R.drawable.a07, "본동초등학교", "노량진동 133", "813-0408"));
+        data.add(new MyItem(R.drawable.a08, "남정초등학교", "원효2가 54-1","712-8015"));
+        data.add(new MyItem(R.drawable.a09, "응암초등학교", "응암3동 7-40", "303-3044"));
+        data.add(new MyItem(R.drawable.a10, "제일감리교회", "흑석동 80-3","817-2541"));
+        data.add(new MyItem(R.drawable.a11, "봉천종ㅈ합사회복지관", "관악로 254","870-4400"));
+        data.add(new MyItem(R.drawable.a12, "여의도초등학교", "여의도동 40-3", "035-3969"));
+        data.add(new MyItem(R.drawable.a13, "사당1동주민센터", "사당동 105-12", "820-2566"));
+        data.add(new MyItem(R.drawable.a14, "서부성결교회", "이촌동 208-1", "702-1635"));
+        data.add(new MyItem(R.drawable.a15, "서울 이수 중학교", "방배2동 974-22", "521-4651"));
 
 
         //데이터 원본을 item.xml인 뷰에 연결하고, activity_main.xml에

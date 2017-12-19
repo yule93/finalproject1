@@ -12,7 +12,7 @@
         android:padding="8dp"
         android:layout_gravity="center_vertical"
         android:layout_weight="1"
-        android:src="@drawable/sample_0"
+        android:src="@drawable/a01"
         />
     <LinearLayout
         android:orientation="vertical"
