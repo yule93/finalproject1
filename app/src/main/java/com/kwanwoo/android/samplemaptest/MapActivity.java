@@ -126,7 +126,7 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
         @Override
         public boolean onMarkerClick(Marker marker) {
             if (marker.getTitle().equals("한성대입구역")) {
-                Toast.makeText(getApplicationContext(),"한성대입구역을 선택하셨습니다", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"한성대학교 입니다", Toast.LENGTH_SHORT).show();
             }
             return false;
         }

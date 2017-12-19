@@ -59,7 +59,7 @@
           android:id="@+id/btnSubmit"
           android:layout_width="80dp"
           android:layout_height="wrap_content"
-          android:text="Submit" />
+          android:text="확인" />
 
 
    </LinearLayout>
