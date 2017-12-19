@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         data.add(new MyItem(R.drawable.a08, "남정초등학교", "원효2가 54-1","712-8015"));
         data.add(new MyItem(R.drawable.a09, "응암초등학교", "응암3동 7-40", "303-3044"));
         data.add(new MyItem(R.drawable.a10, "제일감리교회", "흑석동 80-3","817-2541"));
-        data.add(new MyItem(R.drawable.a11, "봉천종ㅈ합사회복지관", "관악로 254","870-4400"));
+        data.add(new MyItem(R.drawable.a11, "봉천종합사회복지관", "관악로 254","870-4400"));
         data.add(new MyItem(R.drawable.a12, "여의도초등학교", "여의도동 40-3", "035-3969"));
         data.add(new MyItem(R.drawable.a13, "사당1동주민센터", "사당동 105-12", "820-2566"));
         data.add(new MyItem(R.drawable.a14, "서부성결교회", "이촌동 208-1", "702-1635"));

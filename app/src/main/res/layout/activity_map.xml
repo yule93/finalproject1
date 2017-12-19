@@ -20,7 +20,7 @@
           android:layout_height="wrap_content"
           android:text="THE BUNKER"
           android:textSize="20dp"
-          android:textStyle="bold"
+          android:textStyle="bold|italic"
           android:textColor="#000000"
           android:layout_gravity="center"
           android:layout_marginLeft="20dp"
@@ -64,20 +64,46 @@
 
    </LinearLayout>
 
+   <View
+       android:layout_width="match_parent"
+       android:layout_height="0.75dp"
+       android:layout_centerInParent="true"
+       android:background="#afafaf"/>
+
+
    <LinearLayout
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:orientation="horizontal">
+
+
+      <EditText
+          android:layout_width="220dp"
+          android:layout_height="wrap_content" />
+
       <Button
           android:id="@+id/subway1"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="한성대입구역"/>
+          android:layout_width="35dp"
+          android:layout_height="35dp"
+          android:background="@drawable/placeholder"
+          />
+
       <Button
           android:id="@+id/subway2"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:text="창신역"/>
+          android:layout_width="50dp"
+          android:layout_height="35dp"
+          android:text="추가"
+          android:textSize="10dp"
+          />
+
+      <Button
+          android:id="@+id/subway3"
+          android:layout_width="50dp"
+          android:layout_height="35dp"
+          android:text="제거"
+          android:textSize="10dp"
+          />
+
    </LinearLayout>
    <fragment
        android:id="@+id/map"

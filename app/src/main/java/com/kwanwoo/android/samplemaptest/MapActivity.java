@@ -60,25 +60,6 @@ public class MapActivity extends AppCompatActivity implements OnMapReadyCallback
             }
         });
 
-        Button btn2 = (Button)findViewById(R.id.subway2);
-        btn2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (mGoogleMap != null) {
-                    LatLng location2 = new LatLng(37.5793652, 127.015292);
-                    mGoogleMap.addMarker(
-                            new MarkerOptions().
-                                    position(location2).
-                                    title("창신역").
-                                    alpha(0.8f).
-                                    icon(BitmapDescriptorFactory.fromResource(R.drawable.arrow)).
-                                    snippet("6호선")
-                    );
-                    mGoogleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location2,15));
-                }
-            }
-        });
-
 
         Button Lists = (Button)findViewById(R.id.lists);
         Lists.setOnClickListener(new View.OnClickListener() {
