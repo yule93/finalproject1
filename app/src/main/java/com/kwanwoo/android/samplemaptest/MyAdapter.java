@@ -82,4 +82,3 @@ class MyItem {
         nAge = aAge;
     }
 }
-
