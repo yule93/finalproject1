@@ -51,12 +51,19 @@ public class MainActivity extends AppCompatActivity {
         //listView의 Item 클릭했을 때 이벤트
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             //클릭 이벤트 뷰, 실제 Adapter 뷰, 클릭 위치, 항목 id
-            public void onItemClick(AdapterView<?> parent, View vClicked,
-                                    int position, long id) {
-                //   String name = (String) ((TextView)vClicked.findViewById(R.id.textItem1)).getText();
+            public void onItemClick(AdapterView<?> parent, View vClicked, int position, long id) {
+                Intent intent = new Intent(getApplicationContext(), ViewActivity.class);
+                intent.putExtra("image", Integer.toString(data.get(position).getmIcon()));
+                intent.putExtra("name", data.get(position).getnName());
+                intent.putExtra("place", data.get(position).getnAge());
+                intent.putExtra("phonNumber", data.get(position).getnNumber());
+
+                startActivity(intent);
+
                 String name = ((MyItem)adapter.getItem(position)).nName;
                 Toast.makeText(MainActivity.this, name + " selected",
-                        Toast.LENGTH_SHORT).show();}
+                        Toast.LENGTH_SHORT).show();
+            }
         });
 
 

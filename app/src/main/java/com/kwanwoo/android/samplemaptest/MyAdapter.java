@@ -76,14 +76,27 @@ public class MyAdapter extends BaseAdapter {
 
 class MyItem {
     int mIcon; // image resource
-    String nName; // text
-    String nAge;  // text
-    String nNumber;
+    String nName; // 대피소 이름 저장
+    String nAge;  // 주소 저장
+    String nNumber; // 대피소 전화번호 저장
 
     MyItem(int aIcon, String aName, String aAge, String aNumber) {
         mIcon = aIcon;
         nName = aName;
         nAge = aAge;
         nNumber = aNumber;
+    }
+
+    public int getmIcon() {
+        return mIcon;
+    }
+    public String getnName() {
+        return nName;
+    }
+    public String getnAge() {
+        return nAge;
+    }
+    public String getnNumber() {
+        return nNumber;
     }
 }
